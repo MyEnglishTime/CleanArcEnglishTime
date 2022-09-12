@@ -1,0 +1,15 @@
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\obj\Debug\net6.0\WebApi.Services.csproj.AssemblyReference.cache
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\obj\Debug\net6.0\WebApi.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\obj\Debug\net6.0\WebApi.Services.AssemblyInfoInputs.cache
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\obj\Debug\net6.0\WebApi.Services.AssemblyInfo.cs
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\obj\Debug\net6.0\WebApi.Services.csproj.CoreCompileInputs.cache
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\bin\Debug\net6.0\WebApi.Services.deps.json
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\bin\Debug\net6.0\WebApi.Services.dll
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\bin\Debug\net6.0\WebApi.Services.pdb
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\bin\Debug\net6.0\WebApi.Domain.dll
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\bin\Debug\net6.0\WebApi.Domain.pdb
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\obj\Debug\net6.0\WebApi.Services.csproj.CopyComplete
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\obj\Debug\net6.0\WebApi.Services.dll
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\obj\Debug\net6.0\refint\WebApi.Services.dll
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\obj\Debug\net6.0\WebApi.Services.pdb
+C:\Users\Core\RiderProjects\WebApi\WebApi.Services\obj\Debug\net6.0\ref\WebApi.Services.dll

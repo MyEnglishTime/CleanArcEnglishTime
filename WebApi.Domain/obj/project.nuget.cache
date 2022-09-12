@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DDAFZ3mDsG8ShyUGMom/9fWmGSINGAbS3nJHiVwr7xbQNRMmKv8Rx7XK2KqZh57KoX2eq6A34OnNMNUwb1PfzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Core\\RiderProjects\\WebApi\\WebApi.Domain\\WebApi.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Core\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
