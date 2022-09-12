@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ke7JibkkMBqyNcDIU/FFPlm6iySu1le0uPdSwti8ZAL3q4AvPIrlsqxEAj+5TBPneX0MaPYdVaiZ1v6mCcA/bA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Services\\WebApi.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Core\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Core\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
