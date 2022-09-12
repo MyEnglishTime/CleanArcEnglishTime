@@ -64,6 +64,74 @@
         }
       }
     },
+    "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Framework\\WebApi.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Framework\\WebApi.Framework.csproj",
+        "projectName": "WebApi.Framework",
+        "projectPath": "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Framework\\WebApi.Framework.csproj",
+        "packagesPath": "C:\\Users\\Core\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Core\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Services\\WebApi.Services.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -104,6 +172,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[10.0.1, )"
@@ -159,6 +231,9 @@
               "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Domain\\WebApi.Domain.csproj": {
                 "projectPath": "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Domain\\WebApi.Domain.csproj"
               },
+              "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Framework\\WebApi.Framework.csproj": {
+                "projectPath": "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Framework\\WebApi.Framework.csproj"
+              },
               "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Services\\WebApi.Services.csproj": {
                 "projectPath": "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Services\\WebApi.Services.csproj"
               }
@@ -175,6 +250,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[10.0.1, )"

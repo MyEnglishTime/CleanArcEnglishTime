@@ -1,0 +1,12 @@
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\bin\Debug\net6.0\WebApi.Framework.deps.json
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\bin\Debug\net6.0\WebApi.Framework.dll
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\bin\Debug\net6.0\WebApi.Framework.pdb
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\obj\Debug\net6.0\WebApi.Framework.csproj.AssemblyReference.cache
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\obj\Debug\net6.0\WebApi.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\obj\Debug\net6.0\WebApi.Framework.AssemblyInfoInputs.cache
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\obj\Debug\net6.0\WebApi.Framework.AssemblyInfo.cs
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\obj\Debug\net6.0\WebApi.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\obj\Debug\net6.0\WebApi.Framework.dll
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\obj\Debug\net6.0\refint\WebApi.Framework.dll
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\obj\Debug\net6.0\WebApi.Framework.pdb
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi.Framework\obj\Debug\net6.0\ref\WebApi.Framework.dll

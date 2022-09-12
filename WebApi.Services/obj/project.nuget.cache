@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ke7JibkkMBqyNcDIU/FFPlm6iySu1le0uPdSwti8ZAL3q4AvPIrlsqxEAj+5TBPneX0MaPYdVaiZ1v6mCcA/bA==",
+  "dgSpecHash": "CtJ5DLFshp0+WSEbrOtFRD4B35G+QmsicxHX1gKXSq/qjNwjfh13Lzmg9cMz1Kd0B5TF8VMcXNcQl/oYv2rUlg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Core\\RiderProjects\\CleanArcEnglishTime\\WebApi.Services\\WebApi.Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Core\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\Core\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Core\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
   ],

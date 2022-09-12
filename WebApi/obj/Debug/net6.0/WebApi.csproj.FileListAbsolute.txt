@@ -32,3 +32,7 @@ C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi\bin\Debug\net6.0\WebApi.D
 C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi\bin\Debug\net6.0\WebApi.Domain.pdb
 C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi\bin\Debug\net6.0\WebApi.Services.dll
 C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi\bin\Debug\net6.0\WebApi.Services.pdb
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi\bin\Debug\net6.0\WebApi.Framework.dll
+C:\Users\Core\RiderProjects\CleanArcEnglishTime\WebApi\bin\Debug\net6.0\WebApi.Framework.pdb
