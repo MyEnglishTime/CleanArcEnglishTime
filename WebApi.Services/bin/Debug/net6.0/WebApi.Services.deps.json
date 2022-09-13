@@ -8,12 +8,24 @@
     ".NETCoreApp,Version=v6.0": {
       "WebApi.Services/1.0.0": {
         "dependencies": {
+          "AutoMapper": "11.0.1",
           "FluentValidation": "11.2.2",
           "MediatR": "10.0.1",
           "WebApi.Domain": "1.0.0"
         },
         "runtime": {
           "WebApi.Services.dll": {}
+        }
+      },
+      "AutoMapper/11.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.1.0"
+          }
         }
       },
       "FluentValidation/11.2.2": {
@@ -43,6 +55,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.7.0": {},
       "WebApi.Domain/1.0.0": {
         "dependencies": {
           "MediatR.Contracts": "1.0.1"
@@ -58,6 +71,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/11.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WIadGC1pIwbnyTubvI577p3F++Bsj9q2Q3OaAc1I0QS+JhupN1xkdrPBhI9bPIeg63zM81tZplUNYkqU1HE5jQ==",
+      "path": "automapper/11.0.1",
+      "hashPath": "automapper.11.0.1.nupkg.sha512"
     },
     "FluentValidation/11.2.2": {
       "type": "package",
@@ -79,6 +99,13 @@
       "sha512": "sha512-NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
       "path": "mediatr.contracts/1.0.1",
       "hashPath": "mediatr.contracts.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "WebApi.Domain/1.0.0": {
       "type": "project",
