@@ -1,2 +1,0 @@
-# CleanArcEnglishTime
-Initial project structure
