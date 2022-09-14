@@ -20,4 +20,10 @@
       <ProjectReference Include="..\WebApi.Domain\WebApi.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore">
+        <HintPath>..\..\..\.nuget\packages\microsoft.aspnetcore.identity.entityframeworkcore\6.0.8\lib\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

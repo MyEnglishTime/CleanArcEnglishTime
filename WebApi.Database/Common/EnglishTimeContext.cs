@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using WebApi.Domain.Entities;
 
 namespace WebApi.Database.Common;
 
-public sealed class EnglishTimeContext : DbContext
+public sealed class EnglishTimeContext : IdentityDbContext<UserEntity> 
 {
     public DbSet<WordEntity> Words { get; set; }
     

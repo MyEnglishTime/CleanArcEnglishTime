@@ -1,5 +1,7 @@
 using MediatR;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using WebApi.Domain.Entities;
 using WebApi.Domain.Models;
 
 namespace WebApi.Controllers;
@@ -12,10 +14,10 @@ public class WordController : ControllerBase
     public WordController(IMediator mediator)
     {
         _mediator = mediator;
-    }    
-    
+    }
+
     [HttpPost]
-    public Task<int> CreateWordAsync(CreateWordCommand command)
+    public Task<int> CreateWordAsync(CreateWordCommand command) 
         => _mediator.Send(command);
     
     [HttpGet]
