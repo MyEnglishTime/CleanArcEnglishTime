@@ -28,7 +28,15 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(typeof(WordsMapperProfile));
 
-builder.Services.AddIdentityCore<UserEntity>()
+builder.Services.AddIdentityCore<UserEntity>(config =>
+    {
+        config.Password.RequireDigit = false;
+        config.Password.RequireLowercase = false;
+        config.Password.RequireNonAlphanumeric = false;
+        config.Password.RequireUppercase = false;
+        config.Password.RequiredLength = 6;
+        config.Password.RequiredUniqueChars = 0;
+    })
     .AddEntityFrameworkStores<EnglishTimeContext>()
     .AddSignInManager<SignInManager<UserEntity>>();
 builder.Services.AddSingleton<ISystemClock, SystemClock>();
