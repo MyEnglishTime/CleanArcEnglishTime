@@ -10,5 +10,6 @@ public class WordMap : IEntityTypeConfiguration<WordEntity>
     {
         builder.ToTable("Words");
         builder.HasKey(x => x.Id);
+        builder.Property(x => x.Description).IsRequired(false);
     }
 }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApi.Database.Common;
 
@@ -11,9 +12,10 @@ using WebApi.Database.Common;
 namespace WebApi.Database.Migrations
 {
     [DbContext(typeof(EnglishTimeContext))]
-    partial class EnglishTimeContextModelSnapshot : ModelSnapshot
+    [Migration("20220915210137_Description=optional-fix")]
+    partial class Descriptionoptionalfix
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

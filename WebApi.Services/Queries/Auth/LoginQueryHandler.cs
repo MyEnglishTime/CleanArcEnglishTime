@@ -7,7 +7,7 @@ using WebApi.Domain.Models.Auth;
 
 namespace WebApi.Services.Queries.Auth;
 
-public sealed class LoginQueryHandler : IRequestHandler<LoginQuery, string>
+public sealed class LoginQueryHandler : IRequestHandler<LoginQuery, LoginQueryResult>
 {
     private readonly UserManager<UserEntity> _userManager;
     private readonly SignInManager<UserEntity> _signInManager;
@@ -20,7 +20,7 @@ public sealed class LoginQueryHandler : IRequestHandler<LoginQuery, string>
         _jwtGenerator = jwtGenerator;
     }
 
-    public async Task<string> Handle(LoginQuery query, CancellationToken cancellationToken)
+    public async Task<LoginQueryResult> Handle(LoginQuery query, CancellationToken cancellationToken)
     {
         //todo in validator
         var user = await _userManager.FindByNameAsync(query.UserName);
@@ -33,7 +33,7 @@ public sealed class LoginQueryHandler : IRequestHandler<LoginQuery, string>
 
         if (result.Succeeded)
         {
-            return _jwtGenerator.CreateToken(user);
+            return new LoginQueryResult { AccessToken = _jwtGenerator.CreateToken(user) };
         }
         
         throw new Exception(HttpStatusCode.Unauthorized.ToString());

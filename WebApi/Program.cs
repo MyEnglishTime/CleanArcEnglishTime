@@ -54,16 +54,14 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             };
         });	
 
-//TODO: add repositories dynamically
-builder.Services.AddTransient<IWordRepository, WordRepository>();
-builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddDbContext<EnglishTimeContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection")));
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
-//TODO: investigate add assembly without specify type
-builder.Services.AddMediatR(Assembly.GetExecutingAssembly(), typeof(CreateWordCommand).Assembly, typeof(CreateWordCommandHandler).Assembly, typeof(ValidationBehavior<,>).Assembly, typeof(LoginQueryHandler).Assembly);
-
+var servicesAssembly = AppDomain.CurrentDomain.GetAssemblies().Single(x=> x.GetName().Name == $"{nameof(WebApi)}.{nameof(WebApi.Services)}");
+builder.Services.AddMediatR(servicesAssembly);
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
-builder.Services.AddValidatorsFromAssembly(typeof(CreateWordCommandValidator).Assembly);
+
+builder.Services.AddValidatorsFromAssembly(servicesAssembly);
 builder.Services.AddTransient<ExceptionHandlingMiddleware>();
 
 var app = builder.Build();

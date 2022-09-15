@@ -16,7 +16,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("login")]
-    public Task<string> LoginAsync(LoginQuery query)
+    public Task<LoginQueryResult> LoginAsync(LoginQuery query)
         => _mediator.Send(query);
     
     [HttpPost("register")]
